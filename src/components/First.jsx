@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "./StyleF.css"
 
 const First = () => {
 
@@ -19,11 +20,11 @@ const First = () => {
   return (
     <div>
         <h1 style={{textDecoration: "underline", textAlign: "center"}}>Rick and Morty API</h1>
-        <div>
+        <div className="container">
             {
                 char.map(character => (
-                    <div key={character.id}>
-                        <img src={character.image} alt='img-profile'/>
+                    <div className="character-card" key={character.id}>
+                        <img src={character.image} alt='img-profile' style={{width: "200px"}}/>
                         <p>{character.name}</p>
                     </div>
                 ))

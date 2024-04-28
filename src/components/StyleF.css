@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    width: 85%;
+    margin: auto;
+}
+
+.character-card {
+    text-align: center;
+}
+
+.character-card img {
+    width: 100%;
+    max-width: 200px;
+} 
