@@ -1,5 +1,6 @@
 h1{
     color: red;
+    margin-bottom: 50px;
 }
 .container {
     display: grid;
@@ -16,4 +17,5 @@ h1{
 .character-card img {
     width: 100%;
     max-width: 200px;
+    border-radius: 12px;
 } 
